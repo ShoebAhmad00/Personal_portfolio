@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shoeb - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&
+display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <h1 class="left">Shoeb's Ahmad</h1>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftsection">
+          Hi, My Name is <span class="purple">Shoeb</span>
+          <div>and I am a passionate</div>
+
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit Github</button>
+          </div>
+        </div>
+        <div class="reightsection">
+          <img src="images/myweb4.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="about-section" id="about">
+        <div class="about-left">
+          <h1>Shoeb Ahmad</h1>
+          <p>
+            Iamdd a passionate web developer, dedicated to creating engaging and
+            user-friendly websites. With a keen eye for design and a strong
+            background in programming, Shoeb excels at transforming ideas into
+            functional and aesthetically pleasing digital experiences. Always
+            eager to learn and adapt to new technologies, Shoeb stays updated
+            with the latest trends in web development to deliver cutting-edge
+            solutions. Through his creativity and expertise, Shoeb strives to
+            make a positive impact in the digital world.
+          </p>
+        </div>
+        <div class="right">
+          <img src="images/shoeb.jpg" alt="Shoeb Ahmad" />
+        </div>
+      </section>
+      <section class="secondSection" id="skills">
+        <span class="text-gray">What I Have Done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="images/image-top" src="htmlpic.jpg" alt="" />
+            <div class="vertical-title">HTML Developer</div>
+            <div class="vertical-desc">
+              As a HTML Developer i have command over html tags and comfertable
+              working with js, html,css and creat responsive web design to
+              deliver exceptional customer experience.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="images/image2-top" src="csspic.jpg" alt="" />
+            <div class="vertical-title">CSS Experience</div>
+            <div class="vertical-desc">
+              As a front end developer i have more than one year experience of
+              CSS comftable with css to make your website look more attractive
+              and cool.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="images/image3-top" src="jspic.jpg" alt="" />
+            <div class="vertical-title">JavaScript</div>
+            <div class="vertical-desc">
+              Working on java scripts more than a year i have experties to
+              develop a good and resposive website for customers using html, css
+              and java script.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="images/image4-top" src="mernpic.png" alt="" />
+            <div class="vertical-title">MERN Developer</div>
+            <div class="vertical-desc">
+              i have been working as MERN full stack developer from last one
+              year and good in backend coding and have knowledge about data base
+              management system.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact section -->
+
+      <section class="contact-section" id="contact">
+        <h1>Get in Touch</h1>
+        <a href="mailto:shoebahmad417@gmail.com"
+          ><button id="send-mail-btn">Send Mail</button></a
+        >
+      </section>
+    </main>
+
+    <footer>
+      <div class="footercontainer"></div>
+      <div class="footerbottom">
+        <p>
+          Copyright &copy; 2024; Designed by <span class="designer">Shoeb</span>
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Graphic Designer", "Web Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
